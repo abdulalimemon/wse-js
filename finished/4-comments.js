@@ -3,3 +3,13 @@
 
 // Multi-line Comments
 // Multi-line comments start with /* and end with */.
+
+
+// hello js // .......
+
+
+/*
+HTML
+CSS
+JS
+*/

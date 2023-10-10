@@ -6,6 +6,9 @@
     3. const
 */
 
+var name = 'Emon';
+let Name = "Abdul Alim";
+
 var x = 10;
 var y = -5;
 let a = 55;
@@ -19,8 +22,10 @@ var price2 = 1500;
 
 var sum = price + price2;
 
+console.log(sum);
+
 // String
-let person = "Shakib Al Hasan";
+let person = 'Shakib Al Hasan';
 let bestFriend = "Tamim Iqbal";
 
 // Booleans
@@ -62,6 +67,7 @@ let isSad = false;
 const UserName = "Rahim";
 const user_Name = "Rahim";
 const user_name = "Rahim";
+const userName = "Rahim";
 
 /**
     Variable Tutorial
