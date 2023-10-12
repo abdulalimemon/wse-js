@@ -1,12 +1,22 @@
 const name = "Rahim";
 
+// console.log(typeof name);
+
 const price = 50;
+
+// console.log(typeof price);
 
 const bookPrice = "300";
 
+
 const isHappy = true;
 
+// console.log(typeof isHappy);
+
+
 let x;
+
+console.log(typeof x);
 
 /**
 => Resources
