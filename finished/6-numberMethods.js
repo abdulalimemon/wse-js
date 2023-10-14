@@ -2,8 +2,8 @@
 // The toFixed() Method
 // toFixed() returns a string, with the number written with a specified number of decimals
 
-let x = 11.9673;
-let y = x.toFixed(3);
+// let x = 11.222;
+// let y = x.toFixed(2);
 // console.log(typeof y);
 
 
@@ -12,13 +12,24 @@ let y = x.toFixed(3);
 
 let a = parseInt("10 years")
 
+// console.log(a);
 // console.log( typeof a);
 
 // The parseFloat() Method
 // parseFloat() parses a string and returns a number. Spaces are allowed. Only the first number is returned
+let x = 11.222;
+let y = x.toFixed(2);
+// console.log(y);
+// console.log(typeof y);
 
-let m = parseFloat(y);
+
+// let m = parseFloat(y);
+console.log(parseFloat(y));
+console.log (parseInt(y));
+
 // console.log(typeof m);
+
+
 
 
 

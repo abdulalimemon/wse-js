@@ -3,7 +3,8 @@
   https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
  
 
-  => Solve Those Problems 
+=> Solve Those Problems 
+
 1. Declare a variable called name and assign your name to it.
 2. Create a variable age and assign your age to it.
 3. Calculate the sum of two numbers, num1 and num2.

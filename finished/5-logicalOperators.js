@@ -2,17 +2,17 @@
 // ||	or
 
 const age = 24;
-const ownsCar = true;
+const ownsCar = false;
 const salary = 40000;
 
-if (age >= 20 && ownsCar) {
-  console.log("Jerry is old enough to drive and has his own car.");
-} else {
-  console.log("Jerry does not drive.");
-}
+// if (age >= 20 || ownsCar == 1 || salary >= 50000) {
+//   console.log("Jerry is old enough to drive and has his own car.");
+// } else {
+//   console.log("Jerry does not drive.");
+// }
 
-if( age >= 25 && ownsCar && salary){
-    console.log("Rofiq will get married.");
-} else{
-    console.log('Biye Nai Kopale.');
+if ( ownsCar == false || salary ) {
+  console.log("Rofiq will get married.");
+} else {
+  console.log("Biye Nai Kopale.");
 }

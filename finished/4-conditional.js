@@ -1,7 +1,7 @@
 // JavaScript if, else, and else if - Conditional Statements
 
-const mobilePrice = 30000;
-const myBudget = 10000;
+// const mobilePrice = 30000;
+// const myBudget = 100000;
 
 // The if Statement
 /* 
@@ -11,6 +11,11 @@ if (condition) {
 }
 
 */
+// const mobilePrice = 30000;
+// const myBudget = 10000;
+// if (myBudget > mobilePrice) {
+//   //  console.log(" i will buy a phone");
+// }
 
 // The else Statement
 /* 
@@ -22,6 +27,14 @@ if (condition) {
 }
 
 */
+const mobilePrice = 30000;
+const myBudget = 10000;
+
+// if (myBudget > mobilePrice) {
+//   console.log(" i will buy a phone");
+// } else {
+//   console.log(" Bye Bye");
+// }
 
 // The else if Statement
 /* 
@@ -35,30 +48,37 @@ if (condition1) {
 }
 
 */
-const time = 5;
+/* const time = 24;
+
 if (time < 10) {
   greeting = "Good morning";
+  console.log(greeting);
 } else if (time < 20) {
   greeting = "Good day";
-} else {
+  console.log(greeting);
+}else if (time < 23) {
+  greeting = "Good day 22222";
+  console.log(greeting);
+}
+ else {
   greeting = "Good evening";
+  console.log(greeting);
 }
 
+*/
 
-
-
-const age = 32;
+const age = 16;
 let citizen;
 
 if (age >= 18) {
   citizen = "Can vote";
+  console.log(citizen);
 } else {
   citizen = "Cannot vote";
+  console.log(citizen);
 }
 
 // console.log(citizen);
-
-
 
 /**
 => Resources
