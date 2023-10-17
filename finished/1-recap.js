@@ -1,6 +1,6 @@
 // JavaScript Array Methods
 
-const numbers = [5, 10, 15, 20, 25, 30, 35];
+
 
 // The pop() method removes the last element from an array and returns the value that was "popped out"
 
@@ -27,8 +27,17 @@ if (condition) {
 }
 
 */
+const numbers = [5, 10, 15, 20, 25, 30, 35];
+
+if (numbers[4] % 2 == 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
 
 /* 
+
 The else if Statement
 
 if (condition1) {

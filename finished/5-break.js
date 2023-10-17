@@ -1,19 +1,28 @@
 // JavaScript Break and Continue
 
-// for (let y = 1; y <= 5; y++) {
-//   console.log("Hello JavaScript : ", y);
+// for (let y = 3; y <= 5; y++) {
+  
 //   if (y >= 3) {
 //     break;
 //   }
+  
+//   console.log("Hello JavaScript : ", y);
+
 // }
 
-const numbers = [5, 10, 15, 20, 25, 30, 35];
+
+
+
+
+const numbers = [5, 10, 15, 20, 25, 30, 35, 19, 12];
+
 for (let i = 0; i < numbers.length; i++) {
   let number = numbers[i];
-  if (number > 20) {
+  if (number >= 20) {
     continue;
   }
   console.log(number);
+  console.log("number is :", number);
 }
 
 /**

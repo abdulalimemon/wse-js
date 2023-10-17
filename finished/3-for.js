@@ -21,13 +21,13 @@ Expression 3 is executed (every time) after the code block has been executed.
 //   x++;
 // }
 
-// for (let y = 1; y <= 5; y++) {
+// for (let y = 1; y <= 10; y +=2) {
 //   console.log("Hello JavaScript : ", y);
 // }
 
-// for (let i = 10; i >= 1; i--) {
-//   console.log(i);
-// }
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
 
 /**
 => Resources

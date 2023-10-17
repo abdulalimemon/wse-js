@@ -12,7 +12,8 @@ if (condition) {
 }  if works only one time
 */
 
-let x = 1;
+
+let x = 2;
 
 // while (x <= 5) {
 //   console.log("Hello JavaScript : ", x);
@@ -25,6 +26,12 @@ let x = 1;
 1. Display even numbers from 1 to 100
 2. Display odd numbers from 1 to 100
 */
+
+while (x <= 100) {
+  console.log(x);
+  x = x+2;
+}
+
 
 /**
 => Resources
