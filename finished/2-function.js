@@ -11,38 +11,58 @@ function name(parameter1, parameter2, parameter3) {
 
 */
 
-function hello() {
-  console.log("Hello");
-  console.log("JavaScript");
-}
+// function hello() {
+//   console.log("Hello");
+//   console.log("JavaScript");
+// }
 
-hello();
+// hello();
 
 // parameter
-function hi() {
-  console.log("Hello");
-  console.log("Name");
-}
+// function hi(name) {
+//   console.log("Hello");
+//   console.log(name);
+// }
 
-hi();
+// hi("Javascript");
+// hi("PHP");
 
-function myFunction(p1, p2) {
-  console.log(p1, p2);
-}
+// function myFunction(p1) {
+//   console.log(p1);
+// }
+
+// myFunction(2 + 2);
 
 // write a function to calculate the sum of 4 product.
+// function sum(a, b, c, d) {
+//   const total = a + b + c + d;
+//   console.log(typeof total);
+// }
+
+// sum(100, 200, 300, "222");
+
 // a*a+ 2ab + b*b
+
+// function math(a,b){
+//   const sum = a*a+ (2 *a *b) + b*b;
+
+//   console.log(sum);
+// }
+
+// math(10,5);
+
+
 
 // Return
 function addTwoNumber(p1, p2) {
   console.log(p1, p2);
-  sum = p1 + p2;
+  const sum = p1 + p2;
   return sum;
 }
+
+
 const total = addTwoNumber(4, 10);
 console.log(total);
-
-
 
 /**
 => Resources
